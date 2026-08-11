@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>NIM</td>
+            <td>:</td>
+            <td><input type="text" id="nim" name="nim"></td>
+        </tr>
+        <tr>
+            <td>NAMA</td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="nama"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+                <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+                <label for="laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Asal</td>
+            <td>:</td>
+            <td><form>
+<select id="cars" name="cars">
+<option value="-">-</option>
+<option value="Yogyakarta">Yogyakarta</option>
+<option value="saab">Jakarta</option>
+<option value="fiat">Jawa timur</option>
+<option value="audi">Jawa barat</option>
+</select></td>
+        </tr>
+        <tr>
+            <td>No Telp/HP</td>
+            <td>:</td>
+            <td><input type="text" id="hp" name="hp"></td>
+        </tr>
+        <tr>
+            <td>Alamat Email</td>
+            <td>:</td>
+            <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Hobby</td>
+            <td>:</td>
+            <td><input type="checkbox" id="membaca" name="hobby" value="Membaca">
+                <label for="membaca"> Membaca</label>
+                <input type="checkbox" id="sepakbola" name="hobby" value="sepakbola">
+                <label for="sepakbola"> Sepak Bola</label><br>
+                <input type="checkbox" id="berenang" name="hobby" value="Berenang">
+                <label for="berenang"> Berenang</label>
+                <input type="checkbox" id="olahraga" name="hobby" value="Olahraga">
+                <label for="olahraga"> Olahraga</label><br>
+                <input type="checkbox" id="jogging" name="hobby" value="jogging">
+                <label for="jogging"> Jogging</label>
+                <input type="checkbox" id="gowes" name="hobby" value="GoWes">
+                <label for="gowes"> GoWes</label></td><br>
+        </tr>
+        <tr>
+            <td>Deskripsi Diri</td>
+            <td>:</td>
+            <td><textarea name="pesan" rows="5" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" colspan="3">
+                    <form action="/action_page.php">
+                        <input type="submit" value="Kirim">
+                        <input type="reset" value="Batal">
+                    </form>
+                </td>
+            </tr>
+    </table>
+</body>
+</html>

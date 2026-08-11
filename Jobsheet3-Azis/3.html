@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td style="text-align: center;" colspan="3">Isi Data Dibawah Ini :</td>
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="nama"></td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea id="alamat" name="alamat"></textarea></td>
+        </tr>
+        <tr>
+            <td>Tempat lahir</td>
+            <td>:</td>
+            <td><input type="text" id="tempat_lahir" name="tempat_lahir"></td>
+        </tr>
+        <tr>
+            <td>Tanggal lahir</td>
+            <td>:</td>
+            <td><input type="date" id="tanggal_lahir" name="tanggal_lahir"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td>
+                <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+                <label for="laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Pendidikan</td>
+            <td>:</td>
+            <td>
+                <select id="cars" name="cars">
+                <option value="-">-</option>
+                <option value="S1">S1</option>
+                <option value="S2">S2</option>
+                <option value="S3">S3</option>
+                <option value="D3">D3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="3">
+                <form action="/action_page.php">
+                    <input type="submit" value="Sumbit">
+                    <input type="reset" value="Cancel">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
